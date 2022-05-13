@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/artikeldjango.css' %}">
+    <title>Artikel Django</title>
+</head>
+<body>
+    
+    <header>
+        <div class="contener">
+            <h1><a href="#">Pemrograman</a></h1>
+
+        </div>
+    </header>
+    <div class="sidebar">
+        <header><img src="{% static 'img/logo3.png' %}" alt="" width="60%"></header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profil/">Profil</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </div>
+    <!-- kanan -->
+    <div class="main">
+        <header> Artikel</header>
+        <ul style="list-style: none;">
+            <li><a href="/artikelphp/">PHP</a></li>
+            <li><a href="/artikeldjango/">Django</a></li>
+        </ul>
+    </div>
+
+    <!-- conntent -->
+    <div class="backgron">
+        <div class="conntent" >
+            <h1>Artikel Django</h1><br><br>
+
+            <center>
+                <img src="{% static 'img/django.png' %}" alt="" width="50%">
+            </center><br><br>
+            <h2>Apa Itu Django?</h2>
+            <p>Django adalah sebuah framework full-stack untuk membuat aplikasi web dengan bahasa pemrograman Python. Framework akan membantu kita membuat web lebih cepat, dibandingkan menulis kode dari nol.
+                Full-stack artinya, django meliputi sisi front-end dan juga back-end. Front-end adalah sisi depan yang akan dilihat oleh pengguna, sedangkan back-end adalah sisi belakang yang berhubungan dengan database dan logika bisnis.</p>
+            
+            <h2>Sejarah dan Perkembangan Django</h2>
+            
+            <p>Django awalnya dikembangkan pada tahun 2003 dan 2005 oleh beberapa web developer yang bertugas membuat dan merawat web portal (newspaper website).
+
+                Setelah membuat beberapa website, orang-orang tersebut mulai membuat ulang kode-kode yang pernah mereka tulis dengan menerapkan beberapa design pattern. Lalu disebarkan sebagai project open source dengan nama “Django” pada bulan july 2005.
+                
+                Django kemudian semakin berkembang, lalu dirilis versi 1.0 pada bulan september 2008. Sekarang (2018) Django sudah mencapai versi 2.0.</p>
+            <p>Berikut ini roadmap jadwal rilis Django</p>
+            <img src="{% static 'img/versi-django.png' %}" alt="">
+            
+            <p class="versi">Versi LTS akan dirilis setiap 2 tahun dan memiliki masa dukungan yang lebih panjang.</p>
+        </div>
+
+        <br><br>
+        <hr> <br><br><br><br>
+        <center><p class="copy">Copy Right @SyaefulPahmi2022</p></center><br>
+    </div>
+    
+ 
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/profil.css' %}">
+    <style type="text/css">
+        table thead td{
+            padding: 5px;
+        }
+    </style>
+    <title>Profil</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="contener">
+            <h1><a href="#">Pemrograman</a></h1>
+
+        </div>
+    </nav>
+    <div class="sidebar">
+        <header><img src="{% static 'img/logo3.png' %}" alt="" width="60%"></header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profil/">Profil</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </div>
+    <!-- kanan -->
+    <div class="main">
+        <header>Artikel</header>
+        <ul style="list-style: none;">
+            
+            <li><a href="/artikelphp/">PHP</a></li>
+            <li><a href="">Django</a></li>
+        </ul>
+    </div>
+
+    <!-- conntent -->
+    <div class="backgron">
+        <div class="conntent" >
+            <center><h1>My Profil</h1></center><br><br>
+            <table>
+                <thead>
+                    <td>NAMA :</td>
+                    <td>Syaeful Pahmi</td>
+                </thead>
+                <thead>
+                    <td>NIM :</td>
+                    <td>194855094</td>
+                </thead>
+                <thead>
+                    <td>Prodi :</td>
+                    <td>Teknik Informatika</td>
+                </thead>
+                <thead>
+                    <td>Semester :</td>
+                    <td>Enam (6)A</td>
+                </thead>
+                <thead>
+                    <td>Alamat :</td>
+                    <td>Desa Santong Kec. Terara</td>
+                </thead>
+                <thead>
+                    <td>Pekerjaan :</td>
+                    <td>Mahasiswa</td>
+                </thead>
+                <thead>
+                    <td>Hoby :</td>
+                    <td>Apapun Yang Penting Menarik</td>
+                </thead>
+            </table>
+            
+            <p></p>
+
+        </div><br><br>
+        <div style="padding-top: 200px;">
+            <hr> <br><br><br>
+            <center ><p class="copy">Copy Right @SyaefulPahmi2022</p></center><br>
+        </div>
+
+    </div> 
+    
+ 
+
+</body>
+</html>

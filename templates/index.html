@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+    <title>Home</title>
+</head>
+<body>
+    
+    <header>
+        <div class="contener" >
+            <h1><a href="#">Pemrograman</a></h1>
+
+        </div>
+    </header>
+    <div class="sidebar">
+        <header><img src="{% static 'img/logo3.png' %}" alt="" width="60%"></header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profil/">Profil</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </div>
+    <!-- kanan -->
+    <div class="main">
+        <header>Artikel</header>
+        <ul style="list-style: none;">
+                <li><a href="/artikelphp/">PHP</a></li>
+                <li><a href="">Django</a></li>
+        </ul>
+        
+    </div>
+
+    <!-- conntent -->
+    <div >
+        <div class="conntent" >
+            <h1>Welcome To Website</h1>
+            <p>Pemrograman adalah aktivitas membuat program komputer dengan barisan kode. Jadi, tak heran kalau aktivitas ini sering disebut sebagai coding atau ngoding.
+
+                Barisan kode yang dihasilkan bisa memberikan instruksi khusus ke komputer. Mulai dari hal simpel seperti penjumlahan dua angka, hingga hal kompleks seperti memprediksi cuaca esok hari.  
+                
+                Oh ya, kode tersebut mempunyai aturannya sendiri-sendiri yang disebut sebagai bahasa pemrograman. Jenisnya sendiri ada banyak dan selalu dikembangkan. Kita akan bahas bahasa pemrograman ini lebih lanjut di bawah, ya.</p>
+            
+            <img src="{% static 'img/poto.png' %}" alt="">
+
+        
+        </div>
+        <hr> <br><br>
+        <center><p class="copy">Copy Right @SyaefulPahmi2022</p></center><br>
+    </div>
+    
+ 
+
+</body>
+</html>

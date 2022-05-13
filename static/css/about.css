@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.contener {
+    margin:0 auto;
+    width:100%;
+    background-color: #1D2228;
+    position:fixed;
+}
+.contener::after{
+    content: '';
+    display: block;
+    clear: both;
+    /* background-color: black; */
+}
+
+header h1 {
+    float: left;
+    padding: 13px 130px;
+    font-size: 40px;
+
+}
+header h1 a{
+    font-family: Roboto Slab;
+    color: #ffffff; 
+    padding: 20px 80px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #E1E2E2;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #1D2228;
+    padding-left: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.main{
+    float: right;
+    position: fixed;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background: #FB8122;
+}
+.sidebar header{
+    background-color: #1D2228;
+    line-height: 70px;
+}
+.sidebar header img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+    
+}
+.main header{
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 72px;
+    background: #1D2228;
+    user-select: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.conntent{
+    width: 70%; 
+    margin: auto;
+    padding-top: 80px;
+}
+.conntent p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
+.conntent h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}    
+.conntent h2{
+    font-size: 30px;
+    
+}
+.conntent img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <title>About</title>
+</head>
+<body>
+    
+    <header>
+        <div class="contener">
+            <h1><a href="#">Pemrograman</a></h1>
+
+        </div>
+    </header>
+    <div class="sidebar">
+        <header><img src="{% static 'img/logo3.png' %}" alt="" width="60%"></header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profil/">Profil</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </div>
+    <!-- kanan -->
+    <div class="main">
+        <header> Artikel</header>
+        <ul style="list-style: none;">
+            <li><a href="/artikelphp/">PHP</a></li>
+            <li><a href="">Django</a></li>
+        </ul>
+    </div>
+
+    <!-- conntent -->
+    <div class="backgron">
+        <div class="conntent" >
+            <h1>About</h1><br><br>
+            <h2>Sejarah</h2>
+            <p>Terciptanya bahasa pemrograman beriringan dengan sejarah mesin dan komputer. Awal mula bahasa pemrograman dimulai dari Antikythera yang berasal dari Yunani kuno. Antikythera adalah kalkulator yang menggunakan beberapa tuas dan konfigurasi untuk menjalankanya. Pada tahun 1200an Ismail Al-Jazari, seorang ilmuwan pada masa kejayaan Islam membangun sebuah mesin bernama Automata, sebuah robot burung merak yang bergerak dengan menggunakan hydropower (aliran air).</p>
+            <p>Cikal bakal bahasa pemrograman pertama kali muncul pada tahun 1822, sebuah mesin bernama Difference Engine diciptakan oleh Charles Babbage, mahasiswa di universitas Cambridge Inggris. Namun mesin buatan Babbage hanya bisa mengeluarkan satu jenis output. Barulah 10 tahun kemudian Charles Babbage mengembangkan mesin pengolah data itu hingga mencapai versi kedua tahun 1849. Perjuangan Babbage diteruskan oleh anaknya, Henry Prevost. Prevost membuat kopian dari perhitungan algoritma mesinnya dan mengirim ke berbagai institusi di dunia.</p>
+            <p>Dengan tersebarnya algoritma mesin Prevost, perkembangan semakin terjadi. Di tahun 1854, George Boole menemukan sistem logika yang disebut logika Boole. Logika ini menyatakan hubungan hubungan lebih besar, lebih kecil, sama dengan dan tidak sama dengan.</p>
+
+            <img src="{% static 'img/poto.png' %}" alt="">
+        </div>
+        <br><br>
+        <hr> <br><br><br><br>
+        <center><p class="copy">Copy Right @SyaefulPahmi2022</p></center><br>
+    </div>
+    
+ 
+
+</body>
+</html>

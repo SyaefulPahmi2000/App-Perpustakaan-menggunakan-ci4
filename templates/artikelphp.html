@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/artikelphp.css' %}">
+    
+    <title>Artikel PHP</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="contener">
+            <h1><a href="#">Pemrograman</a></h1>
+
+        </div>
+    </nav>
+    <div class="sidebar">
+        <header><img src="{% static 'img/logo3.png' %}" alt="" width="60%"></header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/profil/">Profil</a></li>
+            <li><a href="/about/">About</a></li>
+        </ul>
+    </div>
+    <!-- kanan -->
+    <div class="main">
+        <header>Artikel</header>
+        <ul style="list-style: none;">
+            <li><a href="/artikelphp/">PHP</a></li>
+            <li><a href="/artikeldjango/">Django</a></li>
+        </ul>
+    </div>
+
+    <!-- conntent -->
+    <div class="backgron">
+        <div class="conntent" >
+            <h1>Artikel PHP</h1><br><br>
+
+            <center>
+                <img src="{% static 'img/logo PHP.png' %}" alt="">
+            </center><br><br>
+            <h2>Apa Itu PHP?</h2>
+            <p>PHP adalah script untuk pemrograman script web server-side, script yang membuat dokumen HTML secara on the fly, dokumen HTML yang dihasilkan dari suatu aplikasi bukan dokumen HTML yang dibuat dengan menggunakan editor teks atau editor HTML. HTML adalah bahasa pemrograman dasar yang harus dikuasai jika ingin membuat suatu website.</p>
+            <p>Dengan menggunakan PHP maka maintenance suatu situs web menjadi lebih mudah. Proses update data dapat dilakukan dengan menggunakan aplikasi yang dibuat dengan menggunakan script PHP.
+                PHP/FI merupakan nama awal dari PHP. PHP merupakan singkatan dari Personal Home Page dan FI adalah singkatan dari Form Interface. Dibuat pertama kali oleh Rasmus Lerdoff. PHP, awalnya merupakan program CGI yang dikhususkan untuk menerima input melalui form yang ditampilkan dalam browser web.</p>
+            <p>Software ini disebarkan dan dilisensikan sebagai perangkat lunak Open Source. PHP secara resmi merupakan kependekan dari PHP: HyperText Preprocessor, merupakan bahasa script server-side yang disisipkan pada HTML</p>
+            <h2>Sejarah PHP</h2>
+            <p>PHP pertama kali dibuat pada musim gugur tahun 1994 oleh Rasmus Lerdoff, awalnya digunakan pada websitenya untuk mencatat siapa saja yang berkunjung dan melihat biodataya. Versi pertama yang dirilis tersedia pada awal tahun 1995, dikenal sebagai tool Personal Home Page, yang terdiri atas engine parser yang sangat sederhana yang hanya mengerti beberapa makro khusus dan sejumlah utilitas yang sering digunakan pada halaman-halaman web, seperti buku tami, counter pengunjung, dan lainnya. Parser diprogram ulang pada pertengahan 1995 dan diberi nama PHP/FI versi 2.0. FI berasal dari paket Rasmus lainnya yang ditulis untuk menginterpretasi data dari form, yang kemudian dikombinasikan dengan tool Personal Home Page dan ditambahkan dukungan untuk database mSQL (mini SQL)</p>
+            <p>Tahun 1995 ini dianggap sebagai tahun kelahiran dari PHP/FI yang kemudian membuat pertumbuhan aplikasi web yang pesat, dan banyak orang kemudian berkontribusi mengembangkan PHP/FI. Sulit untuk mendapatkan statistik yang tepat untuk memperkirakan panggunaan PHP/FI, tetapi diperkirakan pada akhir 1996 telah digunakan oleh sedikitnya 15000 website di seluruh dunia. Dan pertengahan 1997 mencapai 50000 situs.
+            </p>
+            <p>Pada pertengahan 1997 ini juga terjadi perubahan pengembangan PHP. Pengembangan dilakukan oleh tim yang terorganisasi bukan oleh Rasmus sendiri saja lagi. Parser dikembangkan oleh Zeev Suraski dan Andi Gutmans yang kemudian menjadi dasar untuk versi 3, dan banyak utilitas tambahan yang diprogram untuk menambah kemampuan dari versi 2. Versi terakhir (PHP 4) menggunakan engine script Zend untuk lebih meningkatkan kinerja (performance) dan mempunyai dukungan yang banyak berupa ekstensi dan fungsi dari berbagai library pihak ketiga (third party), dan berjalan seolah modul asli (native) dari berbagai server web yang populer.</p>
+        </div>
+        <br><br>
+        <hr> <br><br><br><br>
+        <center><p class="copy">Copy Right @SyaefulPahmi2022</p></center><br>
+    </div>
+    
+ 
+
+</body>
+</html>
